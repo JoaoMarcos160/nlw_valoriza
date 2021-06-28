@@ -14,7 +14,7 @@ export class AuthenticateUserService {
 
     const user = await usersRepositories.findOne({ email });
     if (!user) {
-      throw new Error("Email or Password incorrect!");
+      throw new Error("Email or Password incorrect! 2");
     }
 
     const passwordValid = await compare(password, user.password);
