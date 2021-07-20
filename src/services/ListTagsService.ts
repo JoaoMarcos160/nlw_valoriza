@@ -1,5 +1,4 @@
 import { getCustomRepository } from "typeorm";
-import { ComplimentsRepositories } from "../repositories/ComplimentsRepositories";
 import { TagsRepositories } from "../repositories/TagsRepositories";
 
 export class ListTagsService {
